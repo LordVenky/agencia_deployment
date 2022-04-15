@@ -1,0 +1,31 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+
+            .col-md-7  
+                h1 #{pagina}
+                blockquote  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sagittis augue diam, elementum molestie augue pretium ut. Quisque at ex vel dui gravida suscipit ut a velit. Morbi semper feugiat purus in bibendum. In hac habitasse platea dictumst. 
+
+                p Donec eu pretium nisi, nec ullamcorper neque. Quisque feugiat ante ut tellus lobortis, at lobortis velit                vestibulum. Aliquam sem eros, iaculis vitae augue et, pretium tincidunt mi. Lorem ipsum dolor sit amet, consectetur             adipiscing elit.
+
+                p Quisque interdum mollis nulla pulvinar laoreet. Pellentesque at ipsum non lorem mollis dignissim nec ac diam.               Aenean vel ultricies ipsum. Duis quis sapien blandit dui feugiat volutpat. Proin id pharetra nibh, sed semper               mauris. Nulla eu metus quis nulla interdum tempor non non erat.
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row   
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")   
+                    h2.mb-4 Seguridad 
+                    p Aliquam sem eros, iaculis vitae augue et, pretium tincidunt mi. Lorem ipsum dolor sit amet, consectetur             adipiscing elit.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")   
+                    h2.mb-4 Destinos 
+                    p Aliquam sem eros, iaculis vitae augue et, pretium tincidunt mi. Lorem ipsum dolor sit amet, consectetur             adipiscing elit.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")   
+                    h2.mb-4 Precios 
+                    p Aliquam sem eros, iaculis vitae augue et, pretium tincidunt mi. Lorem ipsum dolor sit amet, consectetur             adipiscing elit.
